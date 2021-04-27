@@ -1,0 +1,14 @@
+input, canvas {
+    display: block;
+}
+
+body {
+    display: grid;
+    place-items: center; /*Ещё как имеет, без него переносит на левую сторону всё*/
+}
+
+.grid-colors{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: repeat(2, 100px);
+}

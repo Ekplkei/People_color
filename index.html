@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Не расизм</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input
+      type="file"
+      name=""
+      id="person_picture"
+      accept="image/png, image/jpeg, image/jpg"
+    />
+
+    <canvas id="imageCanvas"> </canvas>
+
+    <p>Выбранные цвета:</p>
+    <div class="grid-colors">
+      <div class="color">Первый цвет</div>
+      <div class="color">Второй цвет</div>
+      <div class="color">Третий цвет</div>
+      <div class="color_bg"></div>
+      <div class="color_bg"></div>
+      <div class="color_bg"></div>
+    </div>
+    
+    <p>На картинке <span class="predict">Нет</span> человек</p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
